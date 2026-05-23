@@ -6,13 +6,16 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: #000818;
+    background-image: url(../public/osmon.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 30px;
 }
 .container{    
     border-radius: 30px;
-    background: #182028;
+    background: #182028c1;
     max-width: 1250px;
     margin: auto;
 }
@@ -206,7 +209,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 60px;
-    background: #182028;
+    background: #182028a7;
     flex-wrap: wrap;
 }
 .about-img img{
@@ -255,14 +258,9 @@ body{
     margin-bottom: 20px;
     color: #cbd5e1;
 }
-.services-box img{
-    /* color: #0ef;
-    padding: 10px;
-    border-radius: 10px; */
-}
 .portfolio{
     padding: 0 70px;
-    background: #111827;
+    background: #1118277f;
 }
 .portfolio h2{
     text-align: center;
@@ -324,7 +322,7 @@ body{
 textarea{
     width: 100%;
     padding: 15px;
-    background: #1e293b;
+    background: #1e293be5;
     border: none;
     outline: none;
     border-radius: 10px;
@@ -338,7 +336,7 @@ textarea{
     resize: none;
 }
 .footer{
-    background: #020617;
+    background: #02061700;
     text-align: center;
     padding: 30px;
     color: #94a3b8;
